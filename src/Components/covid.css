@@ -1,0 +1,40 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background: linear-gradient(to bottom left, #33ccff 0%, #660066 100%);
+    width:50%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  .flex{
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding:20px;
+    gap:10px;
+  }
+  section{
+    background-color:  #171717;
+  }
+  h1{
+    color:antiquewhite
+  }
+  p{
+    font-family:cursive;
+    font-size:20px;
+    font-display:initial;
+    color:beige
+    
+  }
+  h4{
+    font-family:fantasy;
+    font-size:larger;
+  }
